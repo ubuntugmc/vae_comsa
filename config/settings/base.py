@@ -236,7 +236,7 @@ EMAIL_HOST_PASSWORD = email_config["EMAIL_HOST_PASSWORD"]
 EMAIL_HOST = email_config["EMAIL_HOST"]
 EMAIL_PORT = email_config["EMAIL_PORT"]
 EMAIL_FILE_PATH = email_config["EMAIL_FILE_PATH"]
-EMAIL_TIMEOUT = 5
+EMAIL_TIMEOUT = 30
 
 DEFAULT_FROM_EMAIL = env(
     "DJANGO_DEFAULT_FROM_EMAIL", default="VA Explorer <noreply@vaexplorer.org>"
